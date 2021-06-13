@@ -1,0 +1,132 @@
+<style>
+*{
+
+  padding: 0;
+
+  margin: 0;
+  font-family: sans-serif;
+}
+body{
+  background: #000;
+}
+.container{
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  width: 100%;
+}
+.container span{
+  text-transform: uppercase;
+  display: block;
+}
+.text1{
+  color: red;
+  font-size: 200px;
+  font-weight: 700;
+  letter-spacing: 8px;
+  margin-bottom: 20px;
+  background: black;
+  position: relative;
+  animation: text 2s 0s;
+}
+.text2{
+  font-size: 80px;
+  color: #6ab04c;
+}
+.text3{
+  font-size: 70px;
+}
+@keyframes text {
+  0%{
+    color: black;
+    margin-bottom: -4000px;
+  }
+  30%{
+    letter-spacing: 2005px;
+    margin-bottom: -4000px;
+  }
+  85%{
+    letter-spacing: 8000px;
+    margin-bottom: -4000px;
+  }
+}
+.vada{
+ background: radial-gradient(ellipse at bottom, #1b2735 0%, #090a0f 100%);
+  height: 100vh;
+  overflow: hidden;
+  display: -webkit-box;
+  display: flex;
+  font-family: 'Anton', sans-serif;
+  -webkit-box-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+          align-items: center;
+           position: relative;
+  width: 100%;
+  height: 100%;
+  -webkit-transform: rotateZ(45deg);
+          transform: rotateZ(45deg);
+           position: absolute;
+  left: 50%;
+  top: 50%;
+  height: 2px;
+  background: linear-gradient(-45deg, #5f91ff, rgba(0, 0, 255, 0));
+  border-radius: 999px;
+  -webkit-filter: drop-shadow(0 0 6px #699bff);
+          filter: drop-shadow(0 0 6px #699bff);
+  -webkit-animation: tail 3000ms ease-in-out infinite, shooting 3000ms ease-in-out infinite;
+          animation: tail 3000ms ease
+background: radial-gradient(ellipse at bottom, #1b2735 0%, #090a0f 100%);
+  height: 100vh;
+  overflow: hidden;
+  display: -webkit-box;
+  display: flex;
+  font-family: 'Anton', sans-serif;
+  -webkit-box-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+          align-items: center;
+          content: '';
+  position: absolute;
+  top: calc(50% - 1px);
+  right: 0;
+  height: 2px;
+  background: linear-gradient(-45deg, rgba(0, 0, 255, 0), #5f91ff, rgba(0, 0, 255, 0));
+  -
+  border-radius: 100%;
+  -webkit-animation: shining 3000ms ease-in-out infinite;
+          animation: shining 3000ms ease
+          
+}
+}
+}
+</style>
+<!DOCTYPE html>
+
+<html>
+
+  <head>
+    <meta charset="utf-8">
+    <title>Animation Text</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+
+<div class="container">
+  <span class="text1">Welcome to</span>
+  <span class="text2">pseudosec</span>
+  <span class="text3"> <a href="index(1).html">click here to proceed</a></span>
+  
+  </span>
+  
+</div>
+
+<h1 class="vada">
+  
+   
+</h1>
+
+  </body>
+</html>
